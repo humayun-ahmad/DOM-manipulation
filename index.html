@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+    The whole body color will be: 1f1f1f
+    Black inner body: 000000 
+    Blue nav color: 193cb8
+    Yellow fonts: ffb800
+    blue fonts: ooeoff
+    font style: SamsungOne
+    -->
+
+    <!-- The navbar color should be: Blue nav color: 193cb8 -->
+    <nav class="navbar navbar-inverse text-dark">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand text-dark" href="#">SRBD Awards.</a>
+          </div>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item"><a class="nav-link text-dark" href="#"><span class="glyphicon glyphicon-user"></span> Award</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">humayun.a <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+<div class="container">
+  <div class="row">
+
+    <!-- Under profile each and every thing will left align. -->
+    <div class="col-sm-3 profile">
+        <div class="title-award">
+            <h2>Awards. &amp; Achievements</h2>
+        </div>
+        <div class="profile-image">
+            <img src="Humayun Ahmad Rajib.jpg" alt="humayun.a">
+        </div>
+
+        <!-- The name should be just below image -->
+        <div class="profile-name">  
+            <h3>Humayun Ahmad Rajib</h3>
+        </div>
+        <div class="basic-info">
+            
+            <span>GEN ID:</span>
+            <span>EMAIL:</span>
+        </div>
+
+        <div>
+            <button>Download pdf</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <div class="col-sm-9">
+        
+        <!-- for keeping the award icon on the left side -->
+        <div class="award-img">
+            <img src="award.jpg" alt="">
+        </div>
+
+
+        <div class="award-year-arrows">
+            <!-- it should on the left side -->
+            <div class="year">
+                <span id="year-display" class="year-1">2021</span>
+            </div>
+
+            <!-- it should be on the right side -->
+            <div class="arrows">
+                <button id="left_btn">left</button>
+                <button id="right_btn">right</button>
+            </div>
+
+
+        </div>
+        <hr>
+
+        <div id="award_data_container" class="row">
+            <!-- <div class="col-sm-4">
+                <div class="award-all">
+                    <div class="award-single">
+                        <h4 class="award-name">Award Name</h4>
+                        <span>March Development</span>
+                        <Span>Group</Span>
+                        <span>Winner Category</span>
+                        <span>Quarter | Month | Year</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="award-all">
+                    <div class="award-single">
+                        <h4 class="award-name">Award Name</h4>
+                        <span>March Development</span>
+                        <Span>Group</Span>
+                        <span>Winner Category</span>
+                        <span>Quarter | Month | Year</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="award-all">
+                    <div class="award-single">
+                        <h4 class="award-name">Award Name</h4>
+                        <span>March Development</span>
+                        <Span>Group</Span>
+                        <span>Winner Category</span>
+                        <span>Quarter | Month | Year</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="award-all">
+                    <div class="award-single">
+                        <h4 class="award-name">Award Name</h4>
+                        <span>March Development</span>
+                        <Span>Group</Span>
+                        <span>Winner Category</span>
+                        <span>Quarter | Month | Year</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="award-all">
+                    <div class="award-single">
+                        <h4 class="award-name">Award Name</h4>
+                        <span>March Development</span>
+                        <Span>Group</Span>
+                        <span>Winner Category</span>
+                        <span>Quarter | Month | Year</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="index.js">
+
+</script>
+
+</body>
+</html>

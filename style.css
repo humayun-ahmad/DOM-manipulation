@@ -1,0 +1,194 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Import SamsungOne font if available */
+  @font-face {
+    font-family: 'SamsungOne';
+    src: url('path/to/SamsungOne-Regular.ttf') format('truetype');
+  }
+  
+  body {
+    background-color: #1f1f1f; /* Whole body color */
+    font-family: 'SamsungOne', sans-serif;
+    color: #ffb800; /* Yellow fonts */
+  }
+
+  .disabled {
+    cursor: not-allowed !important;
+    color: #999 !important;
+}
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #193cb8; /* Blue nav color */
+    border: none;
+    margin-bottom: 0;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link,
+  .navbar .nav-item a {
+    color: #ffb800 !important; /* Yellow fonts */
+  }
+  
+  .navbar .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar .navbar-right .nav-item {
+    margin-left: 15px;
+  }
+  
+  .navbar .navbar-right .dropdown-menu {
+    background-color: #193cb8;
+    border: none;
+  }
+  
+  .navbar .navbar-right .dropdown-menu .dropdown-item {
+    color: #ffb800 !important;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #000000; /* Black inner body */
+    padding: 20px;
+  }
+  
+  /* Profile section */
+  .profile {
+    text-align: left;
+    color: #ffb800;
+  }
+  
+  .profile-image {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-name h3 {
+    font-size: 24px;
+  }
+  
+  .basic-info {
+    margin-bottom: 20px;
+  }
+  
+  .basic-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile button {
+    background-color: #193cb8;
+    color: #ffb800;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .profile button:hover {
+    background-color: #00e0ff; /* Light blue on hover */
+  }
+  
+  /* Right-side content */
+  .award-img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .award-img img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .award-year-arrows {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .award-year-arrows .year {
+    float: left;
+    color: #ffb800;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  
+  .award-year-arrows .arrows {
+    float: right;
+  }
+  
+  .award-year-arrows .arrows button {
+    background: none;
+    border: none;
+    color: #ffb800;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+
+  }
+  
+  .award-year-arrows .arrows button:hover {
+    color: #00e0ff;
+  }
+  
+  /* Award cards */
+  .award-all {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ffb800;
+    border: 1px solid #ffb800;
+    border-radius: 5px;
+  }
+  
+  .award-single h4.award-name {
+    color: #00e0ff; /* Blue fonts */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .award-single span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Horizontal rule styling */
+  hr {
+    border-top: 1px solid #ffb800;
+    margin: 20px 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .award-img {
+      float: none;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .award-year-arrows .year,
+    .award-year-arrows .arrows {
+      float: none;
+      text-align: center;
+    }
+  
+    .award-year-arrows .arrows {
+      margin-top: 10px;
+    }
+  }
+  
